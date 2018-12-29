@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestDependency]">
+  <test thread-count="5" name="TestCase1(failed)">
+    <classes>
+      <class name="com.loginpackage.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.loginpackage.LoginTest -->
+      <class name="com.palindromevalidation.HomePageElements">
+        <methods>
+          <include name="setUp"/>
+          <include name="countNumberofPlaindromes"/>
+          <include name="getAllElementsOnHomePage"/>
+          <include name="printingPalindromes"/>
+          <include name="tearDowm"/>
+        </methods>
+      </class> <!-- com.palindromevalidation.HomePageElements -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [TestDependency] -->

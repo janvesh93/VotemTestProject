@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestDependency">
+
+  <test name="TestCase1">
+		 
+	<classes>
+	  <class 
+		name="com.loginpackage.LoginTest">
+	  </class>
+	  <class 
+		name="com.palindromevalidation.HomePageElements">
+	  </class>
+	
+	</classes>
+		
+  </test>
+
+</suite>

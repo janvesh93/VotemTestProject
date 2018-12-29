@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestDependency" duration-ms="73580" started-at="2018-12-29T04:18:29Z" finished-at="2018-12-29T04:19:43Z">
+    <groups>
+      <group name="loginTests">
+        <method signature="LoginTest.loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" class="com.loginpackage.LoginTest"/>
+      </group> <!-- loginTests -->
+    </groups>
+    <test name="TestCase1" duration-ms="73580" started-at="2018-12-29T04:18:29Z" finished-at="2018-12-29T04:19:43Z">
+      <class name="com.loginpackage.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="5294" started-at="2018-12-29T04:18:30Z" finished-at="2018-12-29T04:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3511" started-at="2018-12-29T04:18:35Z" data-provider="getLoginData" finished-at="2018-12-29T04:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="937" started-at="2018-12-29T04:18:38Z" finished-at="2018-12-29T04:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="4556" started-at="2018-12-29T04:18:39Z" finished-at="2018-12-29T04:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3211" started-at="2018-12-29T04:18:44Z" data-provider="getLoginData" finished-at="2018-12-29T04:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1014" started-at="2018-12-29T04:18:47Z" finished-at="2018-12-29T04:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="5048" started-at="2018-12-29T04:18:48Z" finished-at="2018-12-29T04:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3192" started-at="2018-12-29T04:18:53Z" data-provider="getLoginData" finished-at="2018-12-29T04:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="871" started-at="2018-12-29T04:18:56Z" finished-at="2018-12-29T04:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="4731" started-at="2018-12-29T04:18:57Z" finished-at="2018-12-29T04:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3208" started-at="2018-12-29T04:19:02Z" data-provider="getLoginData" finished-at="2018-12-29T04:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="907" started-at="2018-12-29T04:19:05Z" finished-at="2018-12-29T04:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="4709" started-at="2018-12-29T04:19:06Z" finished-at="2018-12-29T04:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3187" started-at="2018-12-29T04:19:11Z" data-provider="getLoginData" finished-at="2018-12-29T04:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="927" started-at="2018-12-29T04:19:14Z" finished-at="2018-12-29T04:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="4670" started-at="2018-12-29T04:19:15Z" finished-at="2018-12-29T04:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3190" started-at="2018-12-29T04:19:20Z" data-provider="getLoginData" finished-at="2018-12-29T04:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1068" started-at="2018-12-29T04:19:23Z" finished-at="2018-12-29T04:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="5055" started-at="2018-12-29T04:19:24Z" finished-at="2018-12-29T04:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="loginTest" duration-ms="3183" started-at="2018-12-29T04:19:29Z" data-provider="getLoginData" finished-at="2018-12-29T04:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginpackage.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="987" started-at="2018-12-29T04:19:32Z" finished-at="2018-12-29T04:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.loginpackage.LoginTest -->
+      <class name="com.palindromevalidation.HomePageElements">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.palindromevalidation.HomePageElements@66a3ffec]" name="setUp" is-config="true" duration-ms="4914" started-at="2018-12-29T04:19:33Z" finished-at="2018-12-29T04:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllElementsOnHomePage()[pri:0, instance:com.palindromevalidation.HomePageElements@66a3ffec]" name="getAllElementsOnHomePage" duration-ms="3740" depends-on-groups="loginTests" started-at="2018-12-29T04:19:38Z" finished-at="2018-12-29T04:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllElementsOnHomePage -->
+        <test-method status="PASS" signature="countNumberofPlaindromes()[pri:0, instance:com.palindromevalidation.HomePageElements@66a3ffec]" name="countNumberofPlaindromes" duration-ms="5" started-at="2018-12-29T04:19:42Z" depends-on-methods="com.palindromevalidation.HomePageElements.getAllElementsOnHomePage" finished-at="2018-12-29T04:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countNumberofPlaindromes -->
+        <test-method status="PASS" signature="printingPalindromes()[pri:0, instance:com.palindromevalidation.HomePageElements@66a3ffec]" name="printingPalindromes" duration-ms="7" started-at="2018-12-29T04:19:42Z" depends-on-methods="com.palindromevalidation.HomePageElements.countNumberofPlaindromes" finished-at="2018-12-29T04:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printingPalindromes -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.palindromevalidation.HomePageElements@66a3ffec]" name="tearDowm" is-config="true" duration-ms="942" started-at="2018-12-29T04:19:42Z" finished-at="2018-12-29T04:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.palindromevalidation.HomePageElements -->
+    </test> <!-- TestCase1 -->
+  </suite> <!-- TestDependency -->
+</testng-results>
